@@ -7,13 +7,13 @@ const Navbar = () => {
             <div className="">
                 <img src="./logo.jpg" alt="frontend-ui" className="w-[100px]" />
             </div>
-            <div className="flex  justify-evenly items-center gap-7 font-bold ">
+            <div className="flex  justify-evenly items-center gap-7 font-montserrat">
                 <p>Emotions</p>
                 <p>Manifesto</p>
                 <p>Self-Awareness test</p>
                 <p>Work with us</p>
             </div>
-            <div className="bg-black rounded-3xl text-white px-5 py-2 flex items-center font-bold">
+            <div className="bg-black rounded-3xl text-white px-5 py-2 flex items-center font-monteserrat">
                 <button>Download app</button>
             </div>
         </nav>
