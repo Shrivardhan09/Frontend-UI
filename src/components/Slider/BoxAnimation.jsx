@@ -4,8 +4,8 @@ import React from 'react'
 
 const BoxAnimation = () => {
     return (
-        <div className='flex justify-center  mt-10 mb-10'>
-            <div className='w-4/5 bg-[#FEF6F1] rounded-xl relative flex flex-col  gap-5 '>
+        <div className='flex justify-center mt-10 mb-10'>
+            <div className='w-4/5 bg-[#FEF6F1] rounded-lg relative flex flex-col gap-5'>
                 <div className='lg:w-1/2 px-12 py-16'>
                     <p>Build Out of Frustration</p>
                     <h3 className='mt-5 text-3xl font-bold font-montserrat'>Meeting the Ahead App</h3>
@@ -46,7 +46,17 @@ const BoxAnimation = () => {
                         </p>
                     </div>
                 </div>
-
+                <div className='absolute right-10 -top-4'>
+                    <motion.img
+                        src="./flower.png"
+                        alt="flower"
+                        className='w-8'
+                        initial='hidden'
+                        whileInView='visible'
+                        animate={{ rotate: 360 }}
+                        transition={{ duration: 2 }}
+                    />
+                </div>
             </div>
         </div >
 
