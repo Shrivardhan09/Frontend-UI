@@ -3,6 +3,7 @@ import '/src/app/globals.css'
 import Navbar from '@/components/Navbar/Navbar'
 import Slider from '@/components/Slider/Slider'
 import BoxAnimation from '@/components/Slider/BoxAnimation'
+import Footer from '@/components/Footer/Footer'
 
 export default function Index() {
     return (
@@ -11,6 +12,7 @@ export default function Index() {
             <Home />
             < Slider />
             <BoxAnimation />
+            < Footer />
         </main>
 
     )

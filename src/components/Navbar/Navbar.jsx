@@ -13,7 +13,7 @@ const Navbar = () => {
                 <p>Self-Awareness test</p>
                 <p>Work with us</p>
             </div>
-            <div className="bg-black rounded-3xl text-white px-5 py-2 flex items-center font-monteserrat">
+            <div className="bg-black rounded-md text-white px-5 py-2 flex items-center font-monteserrat">
                 <button>Download app</button>
             </div>
         </nav>
