@@ -24,7 +24,9 @@ const Footer = () => {
                     <h5 className="text-xl font-bold">Apple Store</h5>
                 </div>
             </div>
-
+            <div className="mb-5">
+                <p> &#169; Ahead app. All rights are reserved</p>
+            </div>
         </div>
     )
 }
