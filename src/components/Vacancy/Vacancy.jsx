@@ -9,7 +9,7 @@ const Vacancy = () => {
                 <h2 className='w-1/2'>Open Vacancies</h2>
             </div>
             <div className='  flex items-center justify-center '>
-                <div className=' flex items-center justify-center gap-7  '>
+                <div className=' flex items-center justify-center gap-7 w-full  '>
                     < Card role='Full Stack Developer' />
                     < Card role='UI Developer' />
                     < Card role='Senior Developer' />
