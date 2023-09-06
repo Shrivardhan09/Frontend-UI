@@ -25,6 +25,7 @@ module.exports = {
       'large': '90%',
       'md': '0.375rem',
       'lg': '0.5rem',
+      'xl': '0.75rem'
     }
   },
   plugins: [],
