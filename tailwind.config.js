@@ -20,6 +20,12 @@ module.exports = {
       dmsans: ["DM Sans", "sans-serif"],
       montserrat: ["Montserrat", "sans-serif"],
     },
+    borderRadius: {
+      'full': '9999px',
+      'large': '90%',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+    }
   },
   plugins: [],
 }

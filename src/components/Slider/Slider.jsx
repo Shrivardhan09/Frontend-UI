@@ -39,7 +39,7 @@ const Slider = () => {
                         visible: { opacity: 1, x: -150 }
                     }}
                 >
-                    <motion.div className='bg-cyan-100 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-xl card hover:-rotate-[10deg]'>
+                    <motion.div className='bg-cyan-100 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-lg card hover:-rotate-[10deg]'>
                         <div className='w-[25px]'>
                             <img src="./angryemoji.png" alt="angry-emoji" />
                         </div>
@@ -50,7 +50,7 @@ const Slider = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est iusto modi praesentium recusandae pariatur quo facilis.
                         </div>
                     </motion.div>
-                    <motion.div className='bg-indigo-100 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-xl card hover:-rotate-[10deg]'>
+                    <motion.div className='bg-indigo-100 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-lg card hover:-rotate-[10deg]'>
                         <div className='w-[25px]'>
                             <img src="./blankemoji.png" alt="blank-emoji" />
                         </div>
@@ -61,7 +61,7 @@ const Slider = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est iusto modi praesentium recusandae pariatur quo facilis.
                         </div>
                     </motion.div>
-                    <motion.div className='bg-pink-50 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-xl card  hover:-rotate-[10deg]'>
+                    <motion.div className='bg-pink-50 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-lg card  hover:-rotate-[10deg]'>
                         <div className='w-[25px]'>
                             <img src="./eyebrow-raisedemoji.png" alt="eyebrow-raised-emoji" />
                         </div>
@@ -72,7 +72,7 @@ const Slider = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est iusto modi praesentium recusandae pariatur quo facilis.
                         </div>
                     </motion.div>
-                    <motion.div className='bg-yellow-100 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-xl card hover:-rotate-[10deg]'>
+                    <motion.div className='bg-yellow-100 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-lg card hover:-rotate-[10deg]'>
                         <div className='w-[25px]'>
                             <img src="./grimacing-faceemoji.png" alt="eyebrow-raised-emoji" />
                         </div>
@@ -83,7 +83,7 @@ const Slider = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est iusto modi praesentium recusandae pariatur quo facilis.
                         </div>
                     </motion.div>
-                    <motion.div className='bg-sky-200 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-xl card hover:-rotate-[10deg]'>
+                    <motion.div className='bg-sky-200 flex flex-col justify-center items-start gap-1 px-5 py-5 rounded-lg card hover:-rotate-[10deg]'>
                         <div className='w-[25px]'>
                             <img src="./unamused-faceemoji.png" alt="eyebrow-raised-emoji" />
                         </div>
@@ -97,7 +97,6 @@ const Slider = () => {
 
                 </motion.div>
             </div>
-
         </>
     )
 }
