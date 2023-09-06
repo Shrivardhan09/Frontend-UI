@@ -5,6 +5,7 @@ import Slider from '@/components/Slider/Slider'
 import BoxAnimation from '@/components/Slider/BoxAnimation'
 import Footer from '@/components/Footer/Footer'
 import Vacancy from '@/components/Vacancy/Vacancy'
+import TestPage from '@/components/Test/TestPage'
 
 export default function Index() {
     return (
@@ -13,6 +14,7 @@ export default function Index() {
             <Home />
             < Slider />
             <BoxAnimation />
+            < TestPage />
             < Vacancy />
             < Footer />
         </main>
