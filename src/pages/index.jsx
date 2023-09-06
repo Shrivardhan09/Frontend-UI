@@ -6,15 +6,18 @@ import BoxAnimation from '@/components/Slider/BoxAnimation'
 import Footer from '@/components/Footer/Footer'
 import Vacancy from '@/components/Vacancy/Vacancy'
 import TestPage from '@/components/Test/TestPage'
+import MainBox from '@/components/ScrollAnimationCard'
+
 
 export default function Index() {
     return (
         <main className='m-0 '>
-            <Navbar />
-            <Home />
+            < Navbar />
+            < Home />
             < Slider />
-            <BoxAnimation />
+            < BoxAnimation />
             < TestPage />
+            < MainBox />
             < Vacancy />
             < Footer />
         </main>
