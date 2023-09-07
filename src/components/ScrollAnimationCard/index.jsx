@@ -24,7 +24,7 @@ const MainBox = () => {
                 </div>
 
                 <div
-                    className='flex flex-col flex-1 gap-3 justify-center items-center overflow-hidden'
+                    className='flex flex-col flex-1 gap-3 justify-center items-center'
                 >
                     <h2 className='text-4xl font-montserrat font-bold text-purple-500 mt-5'>ahead</h2>
                     < ScrollBar />

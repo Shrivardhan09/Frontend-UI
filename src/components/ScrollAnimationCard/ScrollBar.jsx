@@ -1,12 +1,11 @@
 import Card from './Card';
-
 import '../../app/globals.css'
 
 
 const ScrollBar = () => {
     return (
         <div
-            className='flex justify-center flex-col items-center gap-7 overflow-y-scroll w-[450px] max-h-[400px] '
+            className='flex justify-center flex-col items-center gap-7 w-[450px] max-h-[400px] custom-scroll-bar'
         >
             <Card />
             <Card />
@@ -17,7 +16,6 @@ const ScrollBar = () => {
             <Card />
             <Card />
         </div >
-
     )
 };
 

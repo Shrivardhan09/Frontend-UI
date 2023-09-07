@@ -11,16 +11,27 @@
   height: 200px;
 }
 
+/* timeline page */
 .scroll-container {
   overflow-y: scroll;
-  scrollbar-width: none;
-  /* firefox */
+  scrollbar-width: 1em; /* firefox */
 }
 
 .scroll-container::-webkit-scrollbar {
-  width: 0 !important;
+  width: 6px !important;
 }
 
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgb(89, 89, 235);
+  border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: rgb(246, 132, 132);
+  border-radius: 10px;
+}
+
+/* slider page */
 .slider-container {
   overflow-x: scroll;
   scrollbar-width: none;
@@ -28,4 +39,21 @@
 
 .slider-container::-webkit-scrollbar {
   width: 0 !important;
+}
+
+/* scroll-animation page */
+.custom-scroll-bar {
+  overflow-y: scroll;
+  scrollbar-width: 5px;
+}
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scroll-bar::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 10px;
+}
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background: rgba(38, 72, 206, 0.749);
+  border-radius: 10px;
 }
