@@ -12,8 +12,8 @@ const CardTimeline = () => {
         <Timeline>
             <TimelineItem color='primary'>
                 <TimelineSeparator >
-                    <TimelineDot color='primary'/>
-                    <TimelineConnector sx={{ backgroundColor: '#1976D2' }}  />
+                    <TimelineDot color='primary' />
+                    <TimelineConnector sx={{ backgroundColor: '#1976D2' }} />
                 </TimelineSeparator>
                 <TimelineContent>
                     <Box sx={{ px: 2, }}>
