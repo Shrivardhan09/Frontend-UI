@@ -1,9 +1,9 @@
-import { motion, useScroll } from 'framer-motion'
+import { motion } from 'framer-motion'
 import '/src/app/globals.css'
 import MoodCards from './MoodCards'
 
 const Slider = () => {
-    const { scroll } = useScroll()
+
 
     return (
         <>
@@ -24,10 +24,7 @@ const Slider = () => {
                 </div>
             </motion.div>
 
-            <div
-                style={{ maxWidth: '100%' }}
-                className='flex justify-center items-center gap-7 overflow-x-hidden overflow-y-hidden slider-container'
-            >
+            <div className='slider-container mx-auto'>
                 <MoodCards />
             </div>
         </>

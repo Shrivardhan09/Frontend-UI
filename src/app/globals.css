@@ -13,7 +13,6 @@
 
 /* timeline page */
 .scroll-container {
-  overflow-y: scroll;
   scrollbar-width: 1em; /* firefox */
 }
 
@@ -33,7 +32,7 @@
 
 /* slider page */
 .slider-container {
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   scrollbar-width: none;
 }
 
@@ -43,7 +42,6 @@
 
 /* scroll-animation page */
 .custom-scroll-bar {
-  overflow-y: scroll;
   scrollbar-width: 5px;
 }
 .custom-scroll-bar::-webkit-scrollbar {
@@ -57,3 +55,8 @@
   background: rgba(38, 72, 206, 0.749);
   border-radius: 10px;
 }
+
+/* .mood-cards {
+  overflow-x: auto;
+  width: 100vw;
+} */

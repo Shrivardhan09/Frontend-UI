@@ -7,7 +7,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import { Box } from '@mui/material';
 
 
-const CardTimeline = () => {
+const CardTimeline = ({ number }) => {
     return (
         <Timeline>
             <TimelineItem color='primary'>
@@ -17,7 +17,7 @@ const CardTimeline = () => {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Box sx={{ px: 2, }}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque voluptatibus delectus id laboriosam, impedit fugit magnam numquam neque laborum hic architecto pariatur, sint tempora?
+                        {number}.Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque voluptatibus delectus id laboriosam, impedit fugit magnam numquam neque laborum hic architecto pariatur, sint tempora?
                     </Box>
                 </TimelineContent>
             </TimelineItem>
