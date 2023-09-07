@@ -3,7 +3,7 @@ import SvgComponent from "./SvgComponent"
 
 const TestPage = () => {
     return (
-        <div className="flex justify-center items-center mb-10 flex-col">
+        <div className="flex justify-center items-center mb-10 flex-col my-16 py-16">
             <div className="w-4/5 flex flex-col items-center justify-center gap-5">
                 <p className="text-lg">We take privacy seriously</p>
                 <h3 className="font-bold font-montserrat text-3xl">Before you get started</h3>
