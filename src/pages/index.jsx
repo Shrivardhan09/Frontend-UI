@@ -8,6 +8,7 @@ import Vacancy from '@/components/Vacancy/Vacancy'
 import TestPage from '@/components/Test/TestPage'
 import MainBox from '@/components/ScrollAnimationCard'
 import StepsToFollow from '@/components/Steps'
+import TimeLineAnimation from '@/components/TimelineAnimation'
 
 
 export default function Index() {
@@ -17,6 +18,7 @@ export default function Index() {
             < Home />
             < Slider />
             < BoxAnimation />
+            < TimeLineAnimation />
             < StepsToFollow />
             < TestPage />
             < MainBox />

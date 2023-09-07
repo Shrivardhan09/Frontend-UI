@@ -5,7 +5,7 @@ import CardAnimation from "./CardAnimation"
 const StepsToFollow = () => {
     return (
         <div className='flex justify-center items-center my-12 py-12'>
-            <div className='w-4/5 h-screen bg-sky-50 rounded-xl'>
+            <div className='w-4/5 bg-sky-50 rounded-xl'>
                 <motion.div
                     className='flex justify-center items-center flex-col py-20'
                     initial={{ opacity: 0, scale: 0 }}
@@ -19,10 +19,10 @@ const StepsToFollow = () => {
                     <p>Let your family, friends and co-workers (anonymously) rate your social skills</p>
                     <h2 className='font-bold text-4xl font-montserrat'>Ever wonder what other think of you ?</h2>
                 </motion.div>
-                <div className='flex justify-center items-center  '>
+                <div className='flex justify-center items-center my-12 '>
                     < Steps />
                 </div>
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center my-12">
                     < CardAnimation />
                 </div>
             </div>

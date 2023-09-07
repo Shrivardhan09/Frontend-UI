@@ -10,3 +10,22 @@
   width: 200px;
   height: 200px;
 }
+
+.scroll-container {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /* firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.slider-container {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.slider-container::-webkit-scrollbar {
+  width: 0 !important;
+}
