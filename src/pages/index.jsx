@@ -13,7 +13,7 @@ import TimeLineAnimation from '@/components/TimelineAnimation'
 
 export default function Index() {
     return (
-        <main className='m-0 '>
+        <main className='m-0 box-content'>
             < Navbar />
             < Home />
             < Slider />
