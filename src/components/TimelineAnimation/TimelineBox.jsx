@@ -8,6 +8,12 @@ export default function TimelineBox() {
                 < CardTimeline />
                 < CardTimeline />
                 < CardTimeline />
+                < CardTimeline />
+                < CardTimeline />
+                < CardTimeline />
+                < CardTimeline />
+                < CardTimeline />
+                < CardTimeline />
 
             </div>
         </div>
