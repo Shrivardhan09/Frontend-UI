@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 
 const Steps = () => {
     return (
-        <div className='flex justify-center items-center w-4/5 gap-10'>
+        <div className='md:flex justify-center items-center w-4/5 gap-10'>
             <div className='flex-1 flex flex-col items-center justify-start gap-3 h-28 '>
                 <motion.p
-                    className=' px-3 py-1 bg-yellow-300 rounded-full'
+                    className='px-3 py-1 bg-yellow-300 rounded-full'
                     initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{

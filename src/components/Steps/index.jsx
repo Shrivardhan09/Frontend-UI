@@ -5,9 +5,9 @@ import CardAnimation from "./CardAnimation"
 const StepsToFollow = () => {
     return (
         <div className='flex justify-center items-center my-12 py-12'>
-            <div className='w-4/5 bg-sky-50 rounded-xl'>
+            <div className='md:w-4/5 bg-sky-50 rounded-xl px-3'>
                 <motion.div
-                    className='flex justify-center items-center flex-col py-20'
+                    className='md:flex justify-center items-center flex-col py-20'
                     initial={{ opacity: 0, scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{
@@ -22,7 +22,7 @@ const StepsToFollow = () => {
                 <div className='flex justify-center items-center my-12 '>
                     < Steps />
                 </div>
-                <div className="flex justify-center items-center my-12">
+                <div className="md:flex justify-center items-center my-12 hidden ">
                     < CardAnimation />
                 </div>
             </div>

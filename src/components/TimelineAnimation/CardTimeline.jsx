@@ -16,7 +16,7 @@ const CardTimeline = ({ number }) => {
                     <TimelineConnector sx={{ backgroundColor: '#1976D2' }} />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Box sx={{ px: 2, }}>
+                    <Box >
                         {number}.Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque voluptatibus delectus id laboriosam, impedit fugit magnam numquam neque laborum hic architecto pariatur, sint tempora?
                     </Box>
                 </TimelineContent>

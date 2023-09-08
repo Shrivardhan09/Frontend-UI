@@ -7,8 +7,8 @@ const TimeLineAnimation = () => {
 
     return (
         <>
-            <div className="flex justify-center items-center mt-16 p-16">
-                <div className="w-4/5 flex flex-col items-start justify-center">
+            <div className="flex justify-center items-center mt-16 md:p-16">
+                <div className="md:w-4/5 md:flex flex-col items-start justify-center p-3">
                     <motion.div
                         initial='hidden'
                         whileInView='visible'
@@ -25,7 +25,7 @@ const TimeLineAnimation = () => {
                         </div>
                     </motion.div>
                     <div className="flex justify-start items-center">
-                        <div className="w-4/5 h-[500px] overflow-y-visible" >
+                        <div className="md:w-4/5 w-full h-[500px] overflow-y-visible" >
                             <TimelineBox />
                         </div>
                     </div>

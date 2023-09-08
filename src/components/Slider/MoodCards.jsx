@@ -51,7 +51,7 @@ const MoodCards = () => {
                 hidden: { opacity: 0, x: -100 },
                 visible: { opacity: 1, x: 0 }
             }}
-            className='overflow-x-auto py-12 slider-container flex'
+            className='md:overflow-x-auto py-12 slider-container md:flex mx-12'
         >
             {cardData.map((card, index) => (
                 <div className='py-7 mx-5' key={index}>

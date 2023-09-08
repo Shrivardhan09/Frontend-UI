@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="">
                 <img src="./logo.jpg" alt="frontend-ui" className="w-[100px]" />
             </div>
-            <div className="flex  justify-evenly items-center gap-7 font-montserrat">
+            <div className="md:flex  justify-evenly items-center gap-7 font-montserrat hidden">
                 <p>Emotions</p>
                 <p>Manifesto</p>
                 <p>Self-Awareness test</p>

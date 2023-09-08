@@ -6,7 +6,7 @@ const Slider = () => {
 
 
     return (
-        <>
+        <div className='w-full'>
             <motion.div
                 initial='hidden'
                 whileInView='visible'
@@ -27,7 +27,7 @@ const Slider = () => {
             <div className='slider-container mx-auto'>
                 <MoodCards />
             </div>
-        </>
+        </div>
     )
 }
 
