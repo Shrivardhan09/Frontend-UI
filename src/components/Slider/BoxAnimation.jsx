@@ -52,9 +52,9 @@ const BoxAnimation = () => {
                         alt="flower"
                         className='w-8'
                         initial='hidden'
-                        whileInView={{ opacity: 1, repeat: 1 }}
+                        whileInView={{ opacity: 1 }}
                         animate={{ rotate: 360 }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 2 }}
                     />
                 </div>
             </div>
